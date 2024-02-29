@@ -7,7 +7,8 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
-
+permissions:
+  contents: write
 name: Build OpenWrt
 
 on:
